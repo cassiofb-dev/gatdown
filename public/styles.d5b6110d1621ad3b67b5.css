@@ -1,0 +1,1 @@
+body{background:#ddd;margin:0;padding:2% 1%}.wrapper{width:100%;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}@media only screen and (orientation:portrait){.wrapper{grid-template-columns:1fr}}.editor,.preview{outline:none;padding:5px;min-height:60vh;min-width:30vw;background:#fff;border:2px solid #000}

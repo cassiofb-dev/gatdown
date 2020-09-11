@@ -1,0 +1,28 @@
+{
+  "name": "gatdown",
+  "version": "0.0.1",
+  "description": "Gatsby Markdown Editor",
+  "main": "src/pages/index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://later.git"
+  },
+  "author": "cassiofb-dev",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.24.57",
+    "marked": "^1.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {}
+}
